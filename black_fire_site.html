@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Fire Studios</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background: url('https://images.unsplash.com/photo-1518976024611-28bf4b4c7200') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        header img {
+            max-width: 400px;
+            width: 80%;
+            height: auto;
+            image-rendering: crisp-edges;
+            filter: drop-shadow(0 0 15px rgba(255, 69, 0, 0.8));
+        }
+        header p {
+            font-size: 1.5rem;
+            margin: 20px 0 0 0;
+        }
+        header a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #e63946;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        .films {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .film {
+            background: #111;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .film img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background: #111;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="black-fire-studios-logo-optimized.webp" alt="Black Fire Studios Logo" loading="lazy">
+        <p>Forged in Action. Fueled by Fire.</p>
+        <a href="#films">View Our Films</a>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Black Fire Studios is an independent action film production company bringing explosive storytelling, intense visuals, and unforgettable heroes to the big screen.</p>
+    </section>
+
+    <section id="films">
+        <h2>Featured Films</h2>
+        <div class="films">
+            <div class="film">
+                <img src="https://via.placeholder.com/300x450" alt="Film Poster">
+                <h3>Crimson Impact</h3>
+                <p>An elite agent faces impossible odds to stop a global threat.</p>
+            </div>
+            <div class="film">
+                <img src="https://via.placeholder.com/300x450" alt="Film Poster">
+                <h3>Steel Horizon</h3>
+                <p>In the year 2090, a lone warrior battles for survival in the wastelands.</p>
+            </div>
+            <div class="film">
+                <img src="https://via.placeholder.com/300x450" alt="Film Poster">
+                <h3>Shadow Strike</h3>
+                <p>Assassins, betrayal, and a race against time.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: contact@blackfirestudios.com</p>
+        <p>Follow us on:
+            <a href="#">Instagram</a> |
+            <a href="#">YouTube</a> |
+            <a href="#">Twitter</a>
+        </p>
+    </section>
+
+    <footer>
+        &copy; 2025 Black Fire Studios. All rights reserved.
+    </footer>
+</body>
+</html>
